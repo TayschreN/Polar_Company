@@ -1,0 +1,272 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+   background-image:-moz-linear-gradient(to right, #0598ce, #113768);
+   padding: 0 !important;
+}
+.navbar-brand img
+{
+    height: 45px;
+    padding-left: 30px;
+}
+.navbar-nav li
+{
+    padding: 0 15px;
+}
+.navbar-nav li a
+{
+    color: #ffffff !important;
+    font-weight: 700;
+    float: left;
+    text-align: right;
+}
+.fa-bars
+{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+/*_______Banner section_________*/
+#banner
+{
+    background-image:-moz-linear-gradient(to right, #0598ce, #113768);
+    color: #fff;
+    padding-top: 5%; 
+}
+.promo-title
+{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+.texto
+{
+    font-size: 25px;
+}
+.play-btn
+{
+    width: 50px;
+    margin: 20px;
+}
+#banner a
+{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.urso
+{
+    width: 480px;
+}
+.bottom-img
+{
+    width: 100%; 
+}
+/*____________Services section_________*/
+#services
+{
+    padding: 80px 0;
+}
+.title
+{
+    font-weight: 600;
+}
+.serv
+{
+    font-size: 19px;
+}
+.service-img
+{
+    width: 190px;
+    margin-top:20px;
+}
+.services
+{
+    padding: 60px;
+}
+.services h4
+{
+    padding: 6px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.title::before
+{
+    content: '';
+    background: #4c99f0;
+    height: 5px;
+    width: 310px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after
+{
+    content: '';
+    background: #4c99f0;
+    height: 1px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    display: block;
+    transform: translateY(9px);
+}
+#services .btn-primary 
+{
+    box-shadow: none;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 23px;
+    background-image:-moz-linear-gradient(to right, #0598ce, #113768);
+    font-weight: 600;
+}
+/*_________About us section__________*/
+#about-us
+{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;  
+}
+.about-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+#about-us ul li
+{
+    margin: 8px 0;
+    font-size: 23px; 
+}
+#about-us ul
+{
+    margin-left: 20px;
+}
+
+/*______Testimonials section__________*/
+#testimonials
+{
+    margin: 100px 0;
+}
+.testimonials
+{
+    border-left: 6px solid #0749ad;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimonials
+{
+    font-size: 24px;
+}
+.testimonials img
+{
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    margin: 0 13px;
+}
+.user-details
+{
+    display: inline-block; 
+    font-size:20px;
+}
+/*__________Social Media section______*/
+#social-media
+{
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+#social-media p
+{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social-icons img{
+    width: 60px;
+    transition: 0.4s;
+    margin-left: 40px;
+}
+.social-icons a:hover img
+{
+    transform: translateY(-10px);
+}
+/*______Footer section__________*/
+#footer
+{
+    background-image:-moz-linear-gradient(to right, #0598ce, #113768);
+    color: #fff;
+}
+.footer-img
+{
+    width: 100%;
+}
+.footer-box
+{
+    padding: 20px;
+}
+.footer-box img
+{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box .fa
+{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image:-moz-linear-gradient(to right, #0598ce, #113768);
+}
+.footer-box .form-control
+{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;   
+    max-width: 250px;
+}
+.footer-box .btn-primary
+{
+    box-shadow: none !important;
+    border: none;   
+    border-radius: 0;
+    margin-top: 30px;
+    background-image:-moz-linear-gradient(to right, #0598ce, #113768);
+}
+hr
+{
+    background-color: #fff;
+}
+.copyright
+{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+/*______Carousel_____*/
